@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
+/***/ "./src/index.ts":
 /*!**********************!*\
-  !*** ./src/index.js ***!
+  !*** ./src/index.ts ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.js\");\n\r\n\r\nconsole.log('Hello, Victor!');\r\nconsole.log((0,_test__WEBPACK_IMPORTED_MODULE_0__.calc)(5, 81));\r\n\n\n//# sourceURL=webpack://webpack-course/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/test.ts\");\n\nconsole.log('Hello, Victor!');\nconsole.log((0,_test__WEBPACK_IMPORTED_MODULE_0__.calc)(5, 81));\n\n\n//# sourceURL=webpack://webpack-course/./src/index.ts?");
 
 /***/ }),
 
-/***/ "./src/test.js":
+/***/ "./src/test.ts":
 /*!*********************!*\
-  !*** ./src/test.js ***!
+  !*** ./src/test.ts ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calc: () => (/* binding */ calc)\n/* harmony export */ });\nfunction calc(a, b) {\r\n  return a + b;\r\n}\r\n\n\n//# sourceURL=webpack://webpack-course/./src/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   calc: () => (/* binding */ calc)\n/* harmony export */ });\nfunction calc(a, b) {\n    return a + b;\n}\n\n\n//# sourceURL=webpack://webpack-course/./src/test.ts?");
 
 /***/ })
 
@@ -90,7 +90,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.ts");
 /******/ 	
 /******/ })()
 ;
